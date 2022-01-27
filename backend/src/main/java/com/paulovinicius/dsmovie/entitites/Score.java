@@ -24,7 +24,7 @@ public class Score {
     private Double value;
 
     public void setMovie(Movie movie){
-        id.setMove(movie);
+        id.setMovie(movie);
     }
 
     public void setUser(User user){
