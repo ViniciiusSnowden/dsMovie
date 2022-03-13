@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
-import { Movie } from 'types/move';
+import { Movie } from 'types/movie';
 import { BASE_URL } from 'utils/requests';
 import './style.css'
 
@@ -19,7 +19,7 @@ function FormCard({ movieId } : Props) {
         setMovie(response.data);
       }
     )
-  }, [movieId])
+  }, [movieId]);
 
 
   return (
