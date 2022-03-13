@@ -3,6 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #272A2C;
 }
 
 .dsmovie-pagination-box {
@@ -45,7 +46,7 @@
 .dsmovie-pagination-container p {
     margin: 0;
     font-size: 12px;
-    color: var(--color-primary);
+    color: #ced4da;
 }
 
 .dsmovie-flip-horizontal {

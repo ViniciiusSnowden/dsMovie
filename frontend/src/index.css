@@ -12,10 +12,12 @@
 }
 
 html, body {
-    background-color: #E5E5E5;
+    background-color: #272A2C;
 }
 
 a, a:hover {
   text-decoration: none;
   color: unset;
+  
 }
+

@@ -1,11 +1,12 @@
 import { ReactComponent as GitHubIcon } from "assets/img/github.svg";
+import { ReactComponent as FatherIcon } from "assets/img/film.svg";
 import './style.css'
 function NavBar() {
   return (
     <header>
       <nav className="container">
         <div className="dsmovieNavContent">
-          <h1>DsMovie</h1>
+          <h1><FatherIcon/> Movies</h1>
           <a href="https://github.com/ViniciiusSnowden/dsMovie" target="_blank" rel="noreferrer">
             <div className="dsmovieContactContainer">
               <GitHubIcon />

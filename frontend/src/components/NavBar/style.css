@@ -1,8 +1,9 @@
 header {
     height: 60px;
-    background-color: var(--color-primary);
+    background-color: var(--bs-green);
     display: flex;
     align-items: center;
+   
 }
 
 .dsmovieNavContent {
