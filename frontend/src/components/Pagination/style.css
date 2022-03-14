@@ -26,8 +26,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid var(--color-primary);
+    border: 1px solid var(--bs-teal);
     cursor: pointer;
+    background-color: var(--bs-green);
 }
 
 .dsmovie-pagination-button svg {
